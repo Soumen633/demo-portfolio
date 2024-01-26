@@ -1,0 +1,124 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 40px 20px;
+}
+.dp{
+  width: 50px;
+  cursor: pointer;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.name-container {
+  margin-left: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.name-animation {
+  font-size: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(18) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+section {
+  margin: 20px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#skills ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#skills li {
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#skills li:hover {
+  background-color: #2980b9;
+}
+
+#projects .project {
+  text-align: center;
+}
+
+#resume a {
+  color: #3498db;
+}
+
+#contact {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 10px;
+}
+.project1{
+  width: 555px;
+    height: 246px;
+}
